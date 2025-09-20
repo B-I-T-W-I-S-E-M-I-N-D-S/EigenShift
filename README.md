@@ -16,7 +16,7 @@ Large Language Models have demonstrated impressive fluency across diverse tasks,
 Through extensive experiments on Jigsaw and ToxiCN datasets, we show that aggregated layer-wise features provide more robust signals than single neurons. We propose **EigenShift**, based on eigen-decomposition of the language model's final output layer, which selectively targets generation-aligned components for precise toxicity suppression.
 
 ## 🏗️ Architecture Overview
-![Model Architecture](EigenShift-Arch.pdf)
+![Model Architecture](EigenShift-Arch.jpeg)
 
 For more detailed methodology please go though our paper.
 
