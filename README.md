@@ -1,4 +1,4 @@
-# Singularity: Eigen-based Intervention for Toxicity Reduction in LLMs
+# EigenShift: Eigen-based Intervention for Toxicity Reduction in LLMs
 
 ## Step 0: Setup
 
@@ -35,13 +35,13 @@ Before running, make sure to update the following in `get_generations.py`:
 This script will save generations to:
 
 ```
-Singularity/generations/wo-intervention
+EigenShift/generations/wo-intervention
 ```
 
 To simplify the process, we've already run this script and saved the output at:
 
 ```
-Singularity/generations/wo-intervention/LLaMA-2-7b-hf_RTP_generations.json
+EigenShift/generations/wo-intervention/LLaMA-2-7b-hf_RTP_generations.json
 ```
 
 This file contains 5000 toxic generations from the LLaMA 2 7B model using RealToxicPrompts (RTP).
@@ -63,7 +63,7 @@ Make sure to configure the model/token if needed.
 We’ve also saved the processed output for convenience:
 
 ```
-Singularity/generations/wo-intervention/LLaMA-2-7b-hf_RTP_generations_roberta_toxic_words_extraction.csv
+EigenShift/generations/wo-intervention/LLaMA-2-7b-hf_RTP_generations_roberta_toxic_words_extraction.csv
 ```
 
 ---
