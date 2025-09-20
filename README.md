@@ -222,10 +222,3 @@ If this work is helpful in your research, please cite:
 ```bibtex
 soon
 ```
-
----
-This project is licensed under [License Type] - see the LICENSE file for details.
-
----
-
-*🌟 Made with passion for AI Safety and Responsible AI Development*
