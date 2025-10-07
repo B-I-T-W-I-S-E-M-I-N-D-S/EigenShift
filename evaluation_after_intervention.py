@@ -12,7 +12,7 @@ warnings.filterwarnings("ignore")
 
 device = 'cuda:0' if torch.cuda.is_available() else 'cpu'
 
-model_name = 'meta-llama/LLaMA-2-7b-hf'
+model_name = 'meta-llama/Llama-2-7b-hf'
 token = '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'
 
 file = 'LLaMA-2-7b-hf_W_damped_k1024_alpha0.npy'
