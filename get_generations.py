@@ -10,7 +10,7 @@ from torch.cuda.amp import autocast
 warnings.filterwarnings("ignore")
 
 # Configuration
-MODEL_NAME = 'meta-llama/LLaMA-2-7b-hf'
+MODEL_NAME = 'meta-llama/Llama-2-7b-hf'
 TOKEN = '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'
 GENERATIONS_PER_PROMPT = 25
 MAX_NEW_TOKENS = 20
