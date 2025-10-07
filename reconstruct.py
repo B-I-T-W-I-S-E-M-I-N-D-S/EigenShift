@@ -39,7 +39,7 @@ def get_output(text, input_ids=None, input_text='False', max_new_tokens=20):
 
 device = 'cuda:0' if torch.cuda.is_available() else 'cpu'
 
-model_name = 'meta-llama/LLaMA-2-7b-hf'
+model_name = 'meta-llama/Llama-2-7b-hf'
 
 df = pd.read_csv(f"generations/wo-intervention/LLaMA-2-7b-hf_RTP_generations_roberta_toxic_words_extraction.csv")
 
