@@ -9,7 +9,7 @@ import gc
 warnings.filterwarnings("ignore")
 
 # Configuration
-MODEL_NAME = 'meta-llama/LLaMA-2-7b-hf'
+MODEL_NAME = 'meta-llama/Llama-2-7b-hf'
 TOKEN = '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'
 DEVICE = 'cuda:0'
 BATCH_SIZE = 4  # Process multiple prompts at once
